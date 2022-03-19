@@ -23,20 +23,44 @@ ul {
   padding: 0;
   font-weight: normal;
 }
-
 ol,
 ul {
   list-style: none;
 }
-
 img {
   max-width: 100%;
   height: auto;
 }
-
+html,
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  color: #211d27;
+  background-color: #e5e5e5;
+}
 .page-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.logo {
+  margin-bottom: 24px;
+}
+.titulo-da-pagina {
+  margin-bottom: 24px;
+  font-size: 55px;
+}
+.subtitulo {
+  margin-bottom: 80px;
+  font-size: 35px;
+  font-weight: 100;
+  color: #0066cc;
+}
+.bloco-preto {
+  width: 300px;
+  height: 60px;
+  background-color: #211d27;
 }
