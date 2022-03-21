@@ -1,0 +1,16 @@
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.logo {
+  width: 130px;
+}
+.container-header {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container-links span {
+  margin-right: 40px;
+  font-size: 20px;
+  font-weight: 400;
+}
