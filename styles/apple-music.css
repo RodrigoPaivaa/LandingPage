@@ -1,7 +1,6 @@
-html,
-body {
+.body-apple-music {
   font-family: 'Roboto', sans-serif;
-  margin: 0 8rem;
+  margin: 0 6rem;
   background-color: rgba(255, 255, 255, 0.6);
 }
 .logo {
@@ -39,9 +38,46 @@ body {
   align-items: center;
 }
 .display-image.sign span {
-  font-size: 16px;
+  font-size: 20px;
   margin: 0;
 }
+.container-links label {
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  border: 2px solid;
+  right: 15px;
+  top: 72px;
+  border-radius: 20px;
+}
+.container-links label:before {
+  position: absolute;
+  content: '';
+  width: 22px;
+  height: 22px;
+  left: 2px;
+  top: 2px;
+  border-radius: 50%;
+  background: black;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.container-links label.active:before {
+  left: 31px;
+  background-color: white;
+}
+body.dark {
+  background-color: #211d27;
+  color: white;
+}
+body.dark .container-main .container-infos .page-title {
+  color: white;
+}
+body.dark .container-header .display-image.sign {
+  background-color: white;
+  color: black;
+}
+
 .container-main {
   display: flex;
 }
@@ -74,6 +110,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .page-footer {
   display: flex;
