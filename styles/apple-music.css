@@ -1,16 +1,96 @@
 html,
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0 8rem;
+  background-color: rgba(255, 255, 255, 0.6);
 }
 .logo {
   width: 130px;
 }
 .container-header {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding-top: 65px;
+}
+.container-links {
+  display: flex;
 }
 .container-links span {
   margin-right: 40px;
   font-size: 20px;
   font-weight: 400;
+}
+.display-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.display-image img {
+  margin-right: 10px;
+}
+.display-image.sign {
+  background-color: #211d27;
+  color: white;
+  width: 118px;
+  height: 41px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.display-image.sign span {
+  font-size: 16px;
+  margin: 0;
+}
+.container-main {
+  display: flex;
+}
+.container-main .container-infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 14rem;
+}
+.page-title {
+  font-size: 64px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #211d27;
+}
+.page-text {
+  font-size: 30px;
+  margin-bottom: 40px;
+  font-weight: 300;
+  color: #8c8b8f;
+}
+.page-button {
+  font-size: 22px;
+  font-weight: 500;
+  color: #f5f5f5;
+  background-color: #e6444f;
+  width: 194px;
+  height: 53px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  align-items: center;
+}
+.open-in-music {
+  font-size: 22px;
+  font-weight: 300;
+  color: #8c8b8f;
+  margin-right: 5px;
+}
+.apple-music {
+  margin-right: 5px;
+}
+.arrow {
+  height: 15px;
+  width: 15px;
 }
